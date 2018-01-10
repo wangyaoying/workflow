@@ -1,0 +1,24 @@
+{
+  "name": "npmdemo",
+  "version": "1.0.0",
+  "description": "npm学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wyy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.3",
+    "browsersync": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-less": "^3.4.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

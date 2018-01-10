@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自执行函数</title>
+
+</head>
+<body>
+<input type="button" value="点我点我" id="btn">
+<h1>我要一直用这个技术！！！</h1>
+
+<script>
+
+    var btn=document.getElementById('btn');
+    btn.onclick= function () {
+        console.log(111);
+    };
+    (function () {
+        console.log(2222);
+    })();
+//函数的自执行过程
+    (function (){
+        console.log(1111);
+    })();
+</script>
+</body>
+</html>
