@@ -52,8 +52,9 @@ gulp.task('html', function () {
         .pipe(gulp.dest('dist'))
         .pipe(browserSync.reload( {stream:true}));
 });
-
-//5.自动刷新
+//5.初始化
+gulp.task('build', ['style','script','image','html']);
+//6.自动刷新
 
 
 gulp.task('serve', function() {
